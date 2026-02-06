@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# Except for these
+!wrn_pos_branding/
+!wrp_pos_theme/
+!.gitignore
+!.ignore
+!README.md
+!LICENSE

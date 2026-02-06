@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# Except for these
+!wrp_pos_theme/
+!.gitignore
+!.ignore
+!README.md
+!LICENSE
