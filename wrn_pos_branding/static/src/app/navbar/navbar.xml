@@ -2,7 +2,7 @@
 <templates id="template" xml:space="preserve">
     <t t-name="wrn_pos_branding.Navbar" t-inherit="point_of_sale.Navbar" t-inherit-mode="extension">
         <xpath expr="//img[contains(@class, 'pos-logo')]" position="attributes">
-            <attribute name="src">/wrn_pos_branding/static/src/img/logo.png</attribute>
+            <attribute name="src">/wrn_pos_branding/static/src/img/logo.svg</attribute>
         </xpath>
     </t>
 </templates>

@@ -2,8 +2,8 @@
 <templates id="template" xml:space="preserve">
     <t t-name="wrn_pos_branding.OdooLogo" t-inherit="point_of_sale.OdooLogo" t-inherit-mode="extension">
         <xpath expr="//div" position="replace">
-            <div t-attf-class="{{ props.class }}" t-attf-style="{{ props.style }} display: flex; align-items: center; font-weight: bold; color: inherit;">
-                WaranCloud
+            <div t-attf-class="{{ props.class }}" t-attf-style="{{ props.style }} display: flex; align-items: center;">
+                <img src="/wrn_pos_branding/static/src/img/logo.svg" style="height: 100%; width: auto;"/>
             </div>
         </xpath>
     </t>

@@ -5,7 +5,7 @@
             <title>WaranCloud POS</title>
         </xpath>
         <xpath expr="//link[@rel='icon']" position="replace">
-            <link rel="icon" href="/wrn_pos_branding/static/src/img/favicon.ico" type="image/x-icon"/>
+            <link rel="icon" href="/wrn_pos_branding/static/src/img/favicon.png" type="image/png"/>
         </xpath>
     </template>
 </odoo>
