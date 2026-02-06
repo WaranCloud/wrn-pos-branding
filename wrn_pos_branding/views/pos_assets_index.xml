@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="pos_index_branding" inherit_id="point_of_sale.index">
+        <xpath expr="//title" position="replace">
+            <title>WaranCloud POS</title>
+        </xpath>
+        <xpath expr="//link[@rel='icon']" position="replace">
+            <link rel="icon" href="/wrn_pos_branding/static/src/img/favicon.ico" type="image/x-icon"/>
+        </xpath>
+    </template>
+</odoo>

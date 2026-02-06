@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="wrn_pos_branding.OdooLogo" t-inherit="point_of_sale.OdooLogo" t-inherit-mode="extension">
+        <xpath expr="//div" position="replace">
+            <div t-attf-class="{{ props.class }}" t-attf-style="{{ props.style }} display: flex; align-items: center; font-weight: bold; color: inherit;">
+                WaranCloud
+            </div>
+        </xpath>
+    </t>
+</templates>
