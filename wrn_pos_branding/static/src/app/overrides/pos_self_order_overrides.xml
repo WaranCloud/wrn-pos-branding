@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templates id="template" xml:space="preserve">
-    <t t-name="wrn_pos_branding.FloorScreen" t-inherit="pos_self_order.FloorScreen" t-inherit-mode="extension">
-        <xpath expr="//button[hasclass('qr-order-button')]" position="replace"/>
+    <t t-name="wrn_pos_branding.FloorScreen" t-inherit="pos_restaurant.FloorScreen" t-inherit-mode="extension">
+        <xpath expr="//button[contains(@class, 'qr-order-button')]" position="replace"/>
     </t>
-    <t t-name="wrn_pos_branding.NavbarQR" t-inherit="pos_self_order.Navbar" t-inherit-mode="extension">
-        <xpath expr="//DropdownItem[contains(text(), 'Get QR Codes')]" position="replace"/>
+    <t t-name="wrn_pos_branding.Navbar" t-inherit="point_of_sale.Navbar" t-inherit-mode="extension">
+        <xpath expr="//DropdownItem[contains(., 'Get QR Codes')]" position="replace"/>
     </t>
 </templates>
