@@ -10,7 +10,7 @@
     """,
     'author': 'WaranCloud',
     'website': 'https://www.warancloud.com',
-    'depends': ['point_of_sale'],
+    'depends': ['point_of_sale', 'pos_self_order'],
     'data': [
         'views/pos_assets_index.xml',
     ],
