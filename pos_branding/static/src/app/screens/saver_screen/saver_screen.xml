@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <t t-name="pos_branding.SaverScreen" t-inherit="point_of_sale.SaverScreen" t-inherit-mode="extension">
+        <xpath expr="//img[@src='/web/static/img/odoo_logo.svg']" position="replace">
+            <img t-att-height="env.isSmall ? 40 : 182"
+                src="/pos_branding/static/src/img/warancloud_logo.svg"
+                alt="WaranCloud" class="pos-saver-logo"/>
+        </xpath>
+    </t>
+</odoo>

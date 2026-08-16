@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <t t-name="pos_branding.OrderReceipt" t-inherit="point_of_sale.OrderReceipt" t-inherit-mode="extension">
+        <xpath expr="//p[text()='Powered by Odoo']" position="replace">
+            <p>Solution By WaranCloud</p>
+        </xpath>
+    </t>
+</odoo>

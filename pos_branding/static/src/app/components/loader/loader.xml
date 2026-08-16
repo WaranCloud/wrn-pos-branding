@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <t t-name="pos_branding.Loader" t-inherit="point_of_sale.Loader" t-inherit-mode="extension">
+        <xpath expr="//div[hasclass('lds-ellipsis')]" position="before">
+            <img t-if="!props.loader.error"
+                src="/pos_branding/static/src/img/warancloud_logo.svg"
+                alt="WaranCloud" class="pos-loader-logo"/>
+        </xpath>
+    </t>
+</odoo>
