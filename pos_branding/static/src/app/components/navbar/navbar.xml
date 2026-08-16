@@ -2,7 +2,7 @@
 <odoo>
     <t t-name="pos_branding.Navbar" t-inherit="point_of_sale.Navbar" t-inherit-mode="extension">
         <xpath expr="//img[hasclass('pos-logo')]" position="replace">
-            <img t-att-src="'/web/image?model=res.company&id=' + pos.company.id + '&field=logo'"
+            <img t-att-src="'/web/image?model=res.company&amp;id=' + pos.company.id + '&amp;field=logo'"
                 alt="Company Logo" class="pos-navbar-logo" height="42"
                 t-on-click="() => debug.toggleWidget()"/>
         </xpath>
