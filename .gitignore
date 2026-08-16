@@ -2,7 +2,7 @@
 /*
 
 # Except for these
-!wrn_pos_branding/
+!pos_branding/
 !wrp_pos_theme/
 !.gitignore
 !.ignore
